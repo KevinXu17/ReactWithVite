@@ -1,0 +1,13 @@
+.NavBar-Container {
+    background-color: #4078c0 !important;
+}
+
+.SearchPokemon-Bar::placeholder {
+    font-size: 13px;
+}
+
+.NavBar-Topic {
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}

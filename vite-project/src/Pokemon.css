@@ -1,0 +1,16 @@
+.RandomPokemon {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .RandomPokemon img {
+    height: 85%;
+  }
+  
