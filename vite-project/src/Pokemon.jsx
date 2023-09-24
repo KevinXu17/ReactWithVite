@@ -1,5 +1,6 @@
 import "./Pokemon.css";
 import data from '../public/data/pokemons.json';
+import PokemonTitle from './PokemonTitle';
 
 export default function Pokemon() {
   const index = randomPokemonIndex();
@@ -8,8 +9,10 @@ export default function Pokemon() {
 
   return (
     <div className="RandomPokemon">
-      <p className="Pokemon-Title">#{index} {n}</p>
-      <img src={url} />
+        <PokemonTitle titleContent={{index:index, name:n}} />
+      <div className="PokemonIMG">
+        <img src={url} />
+      </div>
     </div>
   );
 }
